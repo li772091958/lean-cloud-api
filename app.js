@@ -24,6 +24,6 @@ require('./routes/route')(router)
 app.use(router.routes())
     .use(router.allowedMethods())
 
-let PORT = 5555
+let PORT = 80
 app.listen(PORT)
 console.info('listen', PORT)
