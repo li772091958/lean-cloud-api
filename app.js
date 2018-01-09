@@ -18,7 +18,7 @@ var log_middleware = logger('ip [day/month/year:time zone] method url protocol/h
 app.use(log_middleware.gen); // !! note there are no () after gen
 
 let router = new Router({
-  prefix: '/api/aliyuntao'
+  prefix: '/api'
 })
 require('./routes/route')(router)
 app.use(router.routes())
