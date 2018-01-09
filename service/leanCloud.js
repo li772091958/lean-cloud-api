@@ -1,5 +1,5 @@
-var APP_ID = 'PsLiU3e6sAFkoOnaBRS1BThk-gzGzoHsz';
-var APP_KEY = 'WQ2jeDbbVWlEnAJ3iWymS4Px';
+var APP_ID = 'xxxxx';
+var APP_KEY = 'xxxxx';
 var AV = require('leancloud-storage');
 
 const P = require('bluebird')
