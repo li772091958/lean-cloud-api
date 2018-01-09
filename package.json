@@ -27,5 +27,9 @@
   "devDependencies": {
     "bluebird": "^3.5.1",
     "leancloud-storage": "^3.4.2"
+  },
+  "engines" : {
+    "npm" : "~4.1.2",
+    "node" : "~7.7.4"
   }
 }
